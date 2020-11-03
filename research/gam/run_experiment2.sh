@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function main() {
-  for seed in 1234 2345 9999 7839 5129 3583 4975 2359 1111 7712; do
+  for seed in 3584 4976 2360 1112 7713; do
     for noise_level in 0 0.3 0.5; do 
       local data_dir="data_${noise_level}"
       local log_dir="log_${noise_level}/${seed}/"
