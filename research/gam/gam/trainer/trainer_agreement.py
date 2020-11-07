@@ -643,15 +643,19 @@ class TrainerAgreement(Trainer):
     while not has_converged:
       feed_dict = self._construct_feed_dict(data_iterator_train, is_train=True)
 
-      if self.enable_summaries and step % self.summary_step == 0:
-        loss_val, summary, iter_total, _ = session.run(
-            [self.loss_op, self.summary_op, self.iter_agr_total, self.train_op],
-            feed_dict=feed_dict)
-        summary_writer.add_summary(summary, iter_total)
-        summary_writer.flush()
+      if feed_dict:
+        if self.enable_summaries and step % self.summary_step == 0:
+          loss_val, summary, iter_total, _ = session.run(
+              [self.loss_op, self.summary_op, self.iter_agr_total,
+               self.train_op],
+              feed_dict=feed_dict)
+          summary_writer.add_summary(summary, iter_total)
+          summary_writer.flush()
+        else:
+          loss_val, _ = session.run((self.loss_op, self.train_op),
+                                    feed_dict=feed_dict)
       else:
-        loss_val, _ = session.run((self.loss_op, self.train_op),
-                                  feed_dict=feed_dict)
+        loss_val = 1e8          # Infinity
 
       # Log the loss, if necessary.
       if step % self.logging_step == 0:
