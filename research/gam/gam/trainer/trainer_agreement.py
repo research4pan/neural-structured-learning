@@ -984,6 +984,12 @@ class TrainerAgreement(Trainer):
 
       labeled_nodes_indices = data.get_indices_train()
 
+      if num_pos == 0 and num_neg > 0:
+        batch_agreement = np.zeros(num_neg)
+        np.random.shuffle(edges_pos)
+        np.random.shuffle(edges_neg_with_extras)
+        yield edges_neg_with_extras, batch_agreement
+
       keep_going = num_pos > 0
       while keep_going:
         if num_neg_needed > 0:
