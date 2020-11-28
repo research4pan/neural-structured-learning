@@ -1,0 +1,90 @@
+log_0 1234 cora gcn_16 100 log_0/1/1234/cora_gcn_16_reg-100.log 0.7870
+log_0 1234 citeseer gcn_16 100 log_0/1/1234/citeseer_gcn_16_reg-100.log 0.6800
+log_0 1234 pubmed gcn_16 100 log_0/1/1234/pubmed_gcn_16_reg-100.log 0.7660
+log_0 2345 cora gcn_16 100 log_0/1/2345/cora_gcn_16_reg-100.log 0.7970
+log_0 2345 citeseer gcn_16 100 log_0/1/2345/citeseer_gcn_16_reg-100.log 0.6850
+log_0 2345 pubmed gcn_16 100 log_0/1/2345/pubmed_gcn_16_reg-100.log 0.7620
+log_0 9999 cora gcn_16 100 log_0/1/9999/cora_gcn_16_reg-100.log 0.7850
+log_0 9999 citeseer gcn_16 100 log_0/1/9999/citeseer_gcn_16_reg-100.log 0.6720
+log_0 9999 pubmed gcn_16 100 log_0/1/9999/pubmed_gcn_16_reg-100.log 0.7650
+log_0 7839 cora gcn_16 100 log_0/1/7839/cora_gcn_16_reg-100.log 0.8100
+log_0 7839 citeseer gcn_16 100 log_0/1/7839/citeseer_gcn_16_reg-100.log 0.7010
+log_0 7839 pubmed gcn_16 100 log_0/1/7839/pubmed_gcn_16_reg-100.log 0.7610
+log_0 5129 cora gcn_16 100 log_0/1/5129/cora_gcn_16_reg-100.log 0.7760
+log_0 5129 citeseer gcn_16 100 log_0/1/5129/citeseer_gcn_16_reg-100.log 0.6640
+log_0 5129 pubmed gcn_16 100 log_0/1/5129/pubmed_gcn_16_reg-100.log 0.7700
+log_0 3584 cora gcn_16 100 log_0/1/3584/cora_gcn_16_reg-100.log 
+log_0 3584 citeseer gcn_16 100 log_0/1/3584/citeseer_gcn_16_reg-100.log 
+log_0 3584 pubmed gcn_16 100 log_0/1/3584/pubmed_gcn_16_reg-100.log 
+log_0 4976 cora gcn_16 100 log_0/1/4976/cora_gcn_16_reg-100.log 
+log_0 4976 citeseer gcn_16 100 log_0/1/4976/citeseer_gcn_16_reg-100.log 
+log_0 4976 pubmed gcn_16 100 log_0/1/4976/pubmed_gcn_16_reg-100.log 
+log_0 2360 cora gcn_16 100 log_0/1/2360/cora_gcn_16_reg-100.log 
+log_0 2360 citeseer gcn_16 100 log_0/1/2360/citeseer_gcn_16_reg-100.log 
+log_0 2360 pubmed gcn_16 100 log_0/1/2360/pubmed_gcn_16_reg-100.log 
+log_0 1112 cora gcn_16 100 log_0/1/1112/cora_gcn_16_reg-100.log 
+log_0 1112 citeseer gcn_16 100 log_0/1/1112/citeseer_gcn_16_reg-100.log 
+log_0 1112 pubmed gcn_16 100 log_0/1/1112/pubmed_gcn_16_reg-100.log 
+log_0 7713 cora gcn_16 100 log_0/1/7713/cora_gcn_16_reg-100.log 
+log_0 7713 citeseer gcn_16 100 log_0/1/7713/citeseer_gcn_16_reg-100.log 
+log_0 7713 pubmed gcn_16 100 log_0/1/7713/pubmed_gcn_16_reg-100.log 
+log_0.3 1234 cora gcn_16 100 log_0.3/1/1234/cora_gcn_16_reg-100.log 0.6620
+log_0.3 1234 citeseer gcn_16 100 log_0.3/1/1234/citeseer_gcn_16_reg-100.log 0.5470
+log_0.3 1234 pubmed gcn_16 100 log_0.3/1/1234/pubmed_gcn_16_reg-100.log 0.6750
+log_0.3 2345 cora gcn_16 100 log_0.3/1/2345/cora_gcn_16_reg-100.log 0.6560
+log_0.3 2345 citeseer gcn_16 100 log_0.3/1/2345/citeseer_gcn_16_reg-100.log 0.5630
+log_0.3 2345 pubmed gcn_16 100 log_0.3/1/2345/pubmed_gcn_16_reg-100.log 0.6960
+log_0.3 9999 cora gcn_16 100 log_0.3/1/9999/cora_gcn_16_reg-100.log 0.6770
+log_0.3 9999 citeseer gcn_16 100 log_0.3/1/9999/citeseer_gcn_16_reg-100.log 0.5600
+log_0.3 9999 pubmed gcn_16 100 log_0.3/1/9999/pubmed_gcn_16_reg-100.log 0.6760
+log_0.3 7839 cora gcn_16 100 log_0.3/1/7839/cora_gcn_16_reg-100.log 0.6870
+log_0.3 7839 citeseer gcn_16 100 log_0.3/1/7839/citeseer_gcn_16_reg-100.log 0.5800
+log_0.3 7839 pubmed gcn_16 100 log_0.3/1/7839/pubmed_gcn_16_reg-100.log 0.6980
+log_0.3 5129 cora gcn_16 100 log_0.3/1/5129/cora_gcn_16_reg-100.log 0.6660
+log_0.3 5129 citeseer gcn_16 100 log_0.3/1/5129/citeseer_gcn_16_reg-100.log 0.5600
+log_0.3 5129 pubmed gcn_16 100 log_0.3/1/5129/pubmed_gcn_16_reg-100.log 0.6880
+log_0.3 3584 cora gcn_16 100 log_0.3/1/3584/cora_gcn_16_reg-100.log 
+log_0.3 3584 citeseer gcn_16 100 log_0.3/1/3584/citeseer_gcn_16_reg-100.log 
+log_0.3 3584 pubmed gcn_16 100 log_0.3/1/3584/pubmed_gcn_16_reg-100.log 
+log_0.3 4976 cora gcn_16 100 log_0.3/1/4976/cora_gcn_16_reg-100.log 
+log_0.3 4976 citeseer gcn_16 100 log_0.3/1/4976/citeseer_gcn_16_reg-100.log 
+log_0.3 4976 pubmed gcn_16 100 log_0.3/1/4976/pubmed_gcn_16_reg-100.log 
+log_0.3 2360 cora gcn_16 100 log_0.3/1/2360/cora_gcn_16_reg-100.log 
+log_0.3 2360 citeseer gcn_16 100 log_0.3/1/2360/citeseer_gcn_16_reg-100.log 
+log_0.3 2360 pubmed gcn_16 100 log_0.3/1/2360/pubmed_gcn_16_reg-100.log 
+log_0.3 1112 cora gcn_16 100 log_0.3/1/1112/cora_gcn_16_reg-100.log 
+log_0.3 1112 citeseer gcn_16 100 log_0.3/1/1112/citeseer_gcn_16_reg-100.log 
+log_0.3 1112 pubmed gcn_16 100 log_0.3/1/1112/pubmed_gcn_16_reg-100.log 
+log_0.3 7713 cora gcn_16 100 log_0.3/1/7713/cora_gcn_16_reg-100.log 
+log_0.3 7713 citeseer gcn_16 100 log_0.3/1/7713/citeseer_gcn_16_reg-100.log 
+log_0.3 7713 pubmed gcn_16 100 log_0.3/1/7713/pubmed_gcn_16_reg-100.log 
+log_0.5 1234 cora gcn_16 100 log_0.5/1/1234/cora_gcn_16_reg-100.log 0.5990
+log_0.5 1234 citeseer gcn_16 100 log_0.5/1/1234/citeseer_gcn_16_reg-100.log 0.4660
+log_0.5 1234 pubmed gcn_16 100 log_0.5/1/1234/pubmed_gcn_16_reg-100.log 0.6680
+log_0.5 2345 cora gcn_16 100 log_0.5/1/2345/cora_gcn_16_reg-100.log 0.5700
+log_0.5 2345 citeseer gcn_16 100 log_0.5/1/2345/citeseer_gcn_16_reg-100.log 0.4670
+log_0.5 2345 pubmed gcn_16 100 log_0.5/1/2345/pubmed_gcn_16_reg-100.log 0.6510
+log_0.5 9999 cora gcn_16 100 log_0.5/1/9999/cora_gcn_16_reg-100.log 0.5890
+log_0.5 9999 citeseer gcn_16 100 log_0.5/1/9999/citeseer_gcn_16_reg-100.log 0.4810
+log_0.5 9999 pubmed gcn_16 100 log_0.5/1/9999/pubmed_gcn_16_reg-100.log 0.6540
+log_0.5 7839 cora gcn_16 100 log_0.5/1/7839/cora_gcn_16_reg-100.log 0.5580
+log_0.5 7839 citeseer gcn_16 100 log_0.5/1/7839/citeseer_gcn_16_reg-100.log 0.4510
+log_0.5 7839 pubmed gcn_16 100 log_0.5/1/7839/pubmed_gcn_16_reg-100.log 0.6460
+log_0.5 5129 cora gcn_16 100 log_0.5/1/5129/cora_gcn_16_reg-100.log 0.6120
+log_0.5 5129 citeseer gcn_16 100 log_0.5/1/5129/citeseer_gcn_16_reg-100.log 0.4630
+log_0.5 5129 pubmed gcn_16 100 log_0.5/1/5129/pubmed_gcn_16_reg-100.log 0.6560
+log_0.5 3584 cora gcn_16 100 log_0.5/1/3584/cora_gcn_16_reg-100.log 
+log_0.5 3584 citeseer gcn_16 100 log_0.5/1/3584/citeseer_gcn_16_reg-100.log 
+log_0.5 3584 pubmed gcn_16 100 log_0.5/1/3584/pubmed_gcn_16_reg-100.log 
+log_0.5 4976 cora gcn_16 100 log_0.5/1/4976/cora_gcn_16_reg-100.log 
+log_0.5 4976 citeseer gcn_16 100 log_0.5/1/4976/citeseer_gcn_16_reg-100.log 
+log_0.5 4976 pubmed gcn_16 100 log_0.5/1/4976/pubmed_gcn_16_reg-100.log 
+log_0.5 2360 cora gcn_16 100 log_0.5/1/2360/cora_gcn_16_reg-100.log 
+log_0.5 2360 citeseer gcn_16 100 log_0.5/1/2360/citeseer_gcn_16_reg-100.log 
+log_0.5 2360 pubmed gcn_16 100 log_0.5/1/2360/pubmed_gcn_16_reg-100.log 
+log_0.5 1112 cora gcn_16 100 log_0.5/1/1112/cora_gcn_16_reg-100.log 
+log_0.5 1112 citeseer gcn_16 100 log_0.5/1/1112/citeseer_gcn_16_reg-100.log 
+log_0.5 1112 pubmed gcn_16 100 log_0.5/1/1112/pubmed_gcn_16_reg-100.log 
+log_0.5 7713 cora gcn_16 100 log_0.5/1/7713/cora_gcn_16_reg-100.log 
+log_0.5 7713 citeseer gcn_16 100 log_0.5/1/7713/citeseer_gcn_16_reg-100.log 
+log_0.5 7713 pubmed gcn_16 100 log_0.5/1/7713/pubmed_gcn_16_reg-100.log 
