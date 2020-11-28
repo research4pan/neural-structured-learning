@@ -1,0 +1,25 @@
+# Log files
+log*/
+pubmed_full_log*/
+
+# Swap files
+*.swp
+*.swn
+*.swo
+
+# Cache files
+*__pycache__/
+
+# Virtualenv related files
+gam/bin/
+gam/lib/
+gam/lib64
+gam/pyvenv.cfg
+gam/share/
+sgd/
+
+# Output files
+outputs/
+
+# Raw data
+data
