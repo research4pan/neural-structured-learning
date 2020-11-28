@@ -66,6 +66,7 @@
   folder for that.
 
   * Main results (GCN 16):
+
     With correct dependency and settings, you can obtain the main results in
     the report by simply executing the script,
     ```
@@ -79,6 +80,7 @@
     `log_0.3/30/1234/cora_gcn_16_reg-100.log`.
 
   * (Optional) One co-training step with GCN 16:
+
     Similarly,
     ```
     chmod +x run_experiment_step-1.sh
@@ -86,6 +88,7 @@
     ```
 
   * (Optional) Hyperparameter search for lambda
+
     Similarly,
     ```
     chmod +x check_lambda.sh
@@ -93,6 +96,7 @@
     ```
 
   * (Optional) MLP 128 and GCN 128 results:
+
     Similarly,
     ```
     chmod +x run_experiment_hidden_128.sh
@@ -110,10 +114,25 @@
 
 ## Files
 
-  TODO
+  ```
+  |- data_{noise_level}      # IMPORTANT: Data with different noise level
+  |- README.md               # README file
+  |- .gitignore              # .gitignore file
+  |- *.png                   # (Irrelevant) Original code's figures
+  |- run_configs.txt         # (Irrelevant) Original paper's running configurations
+  |- *.sh                    # IMPORTANT: scripts of our experiments
+  |- summary*.log            # IMPORTANT: final result of our experiments
+  |- gam                     # IMPORTANT: source code
+                             #     Logics: scripts -> experiments -> trainer
+    |- experiments           #   source code: 'main.py' for running experiments
+    |- trainer               #   source code: training processes
+    |- models                #   source code: model graph implemented in TF
+    |- data                  #   source code: dataset classes
+  ```
 
 ## Experiment results in the report
   * Main results (GCN 16): `summary_step-30.log`
+
     You can use following commands to check statistics:
     ```
     cat summary_step-30.log | awk 'NF == 7 { sum_sqr[$1" "$3" "$4] += $7 * $7; sum[$1" "$3" "$4] += $7; count[$1" "$3" "$4] += 1.0; } END { for (key in count) { mean=sum[key] / count[key]; variance=sum_sqr[key] / count[key] - mean * mean; stddev = sqrt(variance); print key" "mean * 100" $\\pm$ "stddev * 100; } }' | sort
@@ -126,6 +145,7 @@
     ```
 
   * (Optional) One co-training step with GCN 16: `summary_step-1.log`
+
     You can use following commands to check statistics:
     ```
     cat summary_step-1.log | awk 'NF == 7 { sum_sqr[$1" "$3" "$4] += $7 * $7; sum[$1" "$3" "$4] += $7; count[$1" "$3" "$4] += 1.0; } END { for (key in count) { mean=sum[key] / count[key]; variance=sum_sqr[key] / count[key] - mean * mean; stddev = sqrt(variance); print key" "mean * 100" $\\pm$ "stddev * 100; } }' | sort
@@ -137,6 +157,7 @@
     ```
 
   * (Optional) MLP 128 and GCN 128 results: `summary_hidden_128.log` and `summary_pubmed-full.log`
+
     The MLP 128 results can be checked via command
     ```
      cat summary_hidden_128.log | awk 'NF == 6 { sum_sqr[$1" "$3" "$4] += $6 * $6; sum[$1" "$3" "$4] += $6; count[$1" "$3" "$4] += 1.0; } END { for (key in count) { mean=sum[key] / count[key]; variance=sum_sqr[key] / count[key] - mean * mean; stddev = sqrt(variance); print key" "mean * 100" $\\pm$ "stddev * 100; } }' | grep mlp_128 | sort
