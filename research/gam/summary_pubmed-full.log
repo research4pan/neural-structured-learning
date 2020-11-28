@@ -1,0 +1,15 @@
+pubmed_full_log_0 1234 pubmed gcn_128 pubmed_full_log_0/1234/pubmed_gcn_128.log 0.8590
+pubmed_full_log_0 2345 pubmed gcn_128 pubmed_full_log_0/2345/pubmed_gcn_128.log 0.8440
+pubmed_full_log_0 9999 pubmed gcn_128 pubmed_full_log_0/9999/pubmed_gcn_128.log 0.8490
+pubmed_full_log_0 7839 pubmed gcn_128 pubmed_full_log_0/7839/pubmed_gcn_128.log 0.8560
+pubmed_full_log_0 5129 pubmed gcn_128 pubmed_full_log_0/5129/pubmed_gcn_128.log 0.8550
+pubmed_full_log_0.3 1234 pubmed gcn_128 pubmed_full_log_0.3/1234/pubmed_gcn_128.log 0.7730
+pubmed_full_log_0.3 2345 pubmed gcn_128 pubmed_full_log_0.3/2345/pubmed_gcn_128.log 0.8010
+pubmed_full_log_0.3 9999 pubmed gcn_128 pubmed_full_log_0.3/9999/pubmed_gcn_128.log 0.8080
+pubmed_full_log_0.3 7839 pubmed gcn_128 pubmed_full_log_0.3/7839/pubmed_gcn_128.log 0.7980
+pubmed_full_log_0.3 5129 pubmed gcn_128 pubmed_full_log_0.3/5129/pubmed_gcn_128.log 0.7700
+pubmed_full_log_0.5 1234 pubmed gcn_128 pubmed_full_log_0.5/1234/pubmed_gcn_128.log 0.6980
+pubmed_full_log_0.5 2345 pubmed gcn_128 pubmed_full_log_0.5/2345/pubmed_gcn_128.log 0.7010
+pubmed_full_log_0.5 9999 pubmed gcn_128 pubmed_full_log_0.5/9999/pubmed_gcn_128.log 0.7190
+pubmed_full_log_0.5 7839 pubmed gcn_128 pubmed_full_log_0.5/7839/pubmed_gcn_128.log 0.6610
+pubmed_full_log_0.5 5129 pubmed gcn_128 pubmed_full_log_0.5/5129/pubmed_gcn_128.log 0.7080

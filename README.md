@@ -1,3 +1,7 @@
+# README of Group 01
+
+Please go to folder `research/gam` for GAM implementation.
+
 # Neural Structured Learning in TensorFlow
 
 ![](g3doc/images/nsl_overview.png)
